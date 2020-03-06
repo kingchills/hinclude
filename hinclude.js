@@ -35,7 +35,7 @@ var hinclude;
 
   "use strict";
 
-  hinclude = {
+  module.exports = hinclude = {
     classprefix: "include_",
 
     set_content_async: function (element, req) {
